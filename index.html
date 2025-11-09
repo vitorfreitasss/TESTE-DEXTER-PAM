@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+        <title>Projeto 01</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#8b008b">
+        <link rel="stylesheet" href="./css/estilo.css">
+        <link rel="manifest" href="./json/manifest.json">
+        <script defer src="./js/main.js"></script>
+        <link rel="stylesheet" href="css/boot">
+    </head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" placeholder="Digite seu usuário" required>
+                <div class="error-message" id="usernameError">Por favor, preencha este campo</div>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+                <div class="error-message" id="passwordError">Por favor, preencha este campo</div>
+            </div>
+            
+            <button type="submit">Entrar</button>
+            
+            <div class="forgot-password">
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+        </form>
+    </div>
+    </script>
+</body>
+</html>
